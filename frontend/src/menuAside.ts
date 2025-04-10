@@ -35,7 +35,7 @@ const menuAside: MenuAsideItem[] = [
   {
     href: '/contacts/contacts-list',
     label: 'Contacts',
-label: 'Clients',
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     icon: icon.mdiContactMail ? icon.mdiContactMail : icon.mdiTable,
     permissions: 'READ_CONTACTS',
